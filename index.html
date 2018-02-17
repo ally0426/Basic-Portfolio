@@ -6,50 +6,52 @@
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<meta http-equiv="X-UA-Compatible" content="ie=edge">
-	<title>My Bio</title>
+	<title>About Me</title>
 	<!-- styles -->
-	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.0/normalize.css">
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-	<link rel="stylesheet" type="text/css" href="assets/css/reset.css">
-	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+	<!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.0/normalize.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"> -->
+	<link rel="stylesheet" type="text/css" href="./assets/css/reset.css">
+	<link rel="stylesheet" type="text/css" href="./assets/css/style.css">
 </head>
 
 <body>
 	
-	<nav class="navbar">
-		<div class="container-fluid">
-		  <div class="navbar-header">
-			<a class="navbar-brand" href="#"><h1>Youngmi Lee</h1></a>
-		  </div>
-		 
-		  <ul class="nav navbar-nav navbar-right">
-			<li><a href="#"><h4>About</h4></a></li>
-			<li><a href="portfolio.html"><h4>Portfolio</h4></a></li>
-			<li><a href="contact.html"><h4>Contact</h4></a></li>
-		  </ul>
+	<header id="masthead">
+		<div class="container">
+			<a href="index.html" id="logo">Your Name</a>
+			<nav>
+				<a href="index.html">About</a>
+				<a href="portfolio.html">Portfolio</a>
+				<a href="contact.html">Contact</a>
+			</nav>
+	  </div>
+	</header>
+
+<div id="main-container" class="container">
+	<section class="main-section">
+		<h1>About Me</h1>
+		<img src="./assets/images/cat.jpg" class="auth-image" alt="cat picture">
+		<p>Dolore ipsum irure ipsum ad. Irure excepteur do laborum commodo. Excepteur ullamco culpa aliquip cillum nisi nulla do.</p>
+		<p>Elit labore cillum culpa id tempor do. Pariatur et velit nisi amet amet exercitation consectetur laboris deserunt aliquip qui. Do qui exercitation minim excepteur sunt ullamco aute nisi labore in veniam dolore Lorem do. Id ad non duis dolor. Elit ut aliqua ut veniam. Qui anim proident est eu ipsum qui id ex consectetur ullamco qui. Pariatur pariatur aute in reprehenderit nostrud est dolore do esse consequat est ut.</p>
+	</section>
+
+	<section class="sidebar">
+		<div id="connect">
+			<h2>Connect with Me</h2>
+			<img src="./assets/images/github-128.png" alt="GitHub" class="social">
+			<img src="./assets/images/linkedin-128.png" alt="LinkedIn" class="social">
+			<img src="./assets/images/stackoverflow-128.png" alt="Stack Overflow" class="social">
 		</div>
-	  </nav>
-	  
-	  <div class="container"> 
-	   <div class="flex-container">
-		<section><h2>About Me</h2><hr id="line">
-		<img id="profile_img" src="./assets/images/profile_pic.jpg">
-		  <p>Sit on the laptop hunt by meowing loudly at 5am next to human slave food dispenser, chase dog then run away. White cat sleeps on a black shirt leave hair everywhere, for sleep in the bathroom sink sweet beast, but chase mice. Annoy the old grumpy cat, start a fight and then retreat to wash when i lose scratch at the door then walk away. Inspect anything brought into the house. Thinking longingly about tuna brine eat half my food and ask for more sit and stare. Lick arm hair mrow or pose purrfectly to show my beauty.</p>
-		  <p>Decide to want nothing to do with my owner today meow meow, i tell my human yet pooping rainbow while flying in a toasted bread costume in space so hide at bottom of staircase to trip human for human is washing you why halp oh the horror flee scratch hiss bite for get video posted to internet for chasing red dot climb leg.</p>
-		</section>
-		<aside><h3>Connect with Me</h3>
-		<hr class="line">
-		   <ul>
-				<li><img class="social_img" src="./assets/images/github.png" alt="GitHub"></li>
-				<li><img class="social_img" src="./assets/images/linkedin.png" alt="LinkedIn"></li>
-				<li><img class="social_img" src="./assets/images/stackoverflow.png" alt="Stack Overflow"></li>
-		   </ul>
-		</aside>
-	   </div>
-	  </div> 
-	</div>  
-	<footer>&copy; Copyright 2018 Youngmi Lee</footer>
+	</section>
+</div>
+
+
+	<footer>
+		<div class="container">
+				&copy; Copyright 2016 Your Name
+		</div>
+	</footer>
 	<!-- scripts -->
-	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+	<!-- <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script> -->
     </body>
 </html>
