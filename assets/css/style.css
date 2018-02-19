@@ -21,7 +21,7 @@ h1, h2, h3, p {
   margin-bottom: 20px;
 }
 
-p: last-child {
+p:last-child {
   margin-bottom: 0;
 }
 
