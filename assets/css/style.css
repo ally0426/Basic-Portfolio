@@ -51,7 +51,7 @@ h2, h3 {
   color: #fff;
   overflow: auto;
   border-bottom: 2px solid #ccc;
-  position: fixed;
+  /* position: fixed; */
   width: 100%;
 }
 
